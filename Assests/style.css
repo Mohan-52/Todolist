@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    background-color:rgba(72, 175, 238, 0.949);
+}
+.form-container{
+    margin: 5% auto;
+    background-color: #fff;
+    width: 50%;
+    text-align: center;
+    padding: 5px 0px;
+}
+h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+}
+input{
+    width: 50%;
+    height: 30px;
+    border: 2px solid rgba(7, 105, 166, 0.949);
+}
+.button{
+    background-color: rgba(7, 105, 166, 0.949);
+    border: none;
+    padding: 2px;
+    width: 50px;
+    height: 36px;
+}
+.icon{
+    
+    color: #fff;
+    font-weight: 900;
+    
+}
+li{
+    list-style-type: none;
+    display: inline;
+}
+.todo-list-division{
+    background-color: #F5F5F5;
+    width:55%;
+    margin: 5px 15%;
+    min-height: 30px;
+    padding: 2px;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    align-items: center;
+    
+}
+.remove-edit{
+    margin: 2px 5px;
+    border: 2px solid rgba(7, 105, 166, 0.949);
+}
+.buttonsContainer{
+    display: inline;
+    
+}
+.checkbox{
+    width: 20px;
+    height: 15px;
+    margin: 5px;
+   
+
+}
