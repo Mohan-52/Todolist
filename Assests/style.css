@@ -19,13 +19,17 @@ input{
     width: 50%;
     height: 30px;
     border: 2px solid rgba(7, 105, 166, 0.949);
+    color: #333333;
+    font-size: 20px;
+    font-weight: 600;
 }
+
 .button{
     background-color: rgba(7, 105, 166, 0.949);
     border: none;
-    padding: 2px;
+    
     width: 50px;
-    height: 36px;
+    height: 37px;
 }
 .icon{
     
@@ -45,13 +49,22 @@ li{
     padding: 2px;
     text-align: left;
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 75% 25%;
     align-items: center;
     
 }
 .remove-edit{
-    margin: 2px 5px;
-    border: 2px solid rgba(7, 105, 166, 0.949);
+    margin: 2px 2px;
+    border: none;
+   
+}
+.icons{
+    font-size: 20px;
+    color: rgb(220, 104, 104);
+}
+.icons2{
+    font-size: 20px;
+    color: rgba(7, 105, 166, 0.949);
 }
 .buttonsContainer{
     display: inline;
@@ -63,4 +76,9 @@ li{
     margin: 5px;
    
 
+}
+.ul-li{
+    color: #333333;
+    font-size: 20px;
+    font-weight: 600;
 }
